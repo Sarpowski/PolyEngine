@@ -11,19 +11,33 @@ file(GLOB IMGUI_BACKEND_SOURCES
         "${IMGUI_BACKENDS_DIR}/*.cpp"
 )
 
+# Find required packages
 find_package(imgui)
 find_package(glfw3)
 find_package(glad)
 
-add_executable(engine
-        main.cpp
+# Create library instead of executable
+add_library(engine SHARED
         ${IMGUI_BACKEND_SOURCES}
+        src/engine.cpp
+        Include/engine.h
 )
 
-
 # Include directory for ImGui backends
-target_include_directories(engine PRIVATE ${IMGUI_BACKENDS_DIR})
+target_include_directories(engine
+        PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/Include  # Public headers
+        PRIVATE
+        ${IMGUI_BACKENDS_DIR}
+)
+target_compile_definitions(engine PRIVATE ENGINE_BUILD_DLL)
+# Link libraries
 target_link_libraries(engine
+        PUBLIC
         imgui::imgui
         glfw
-        glad::glad)
+        glad::glad
+)
+
+# Add Sandbox subdirectory
+add_subdirectory(Sandbox)

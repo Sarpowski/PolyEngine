@@ -1,3 +1,6 @@
-C:/Users/Can/Desktop/cppEngine/engine/cmake-build-debug/CMakeFiles/engine.dir
-C:/Users/Can/Desktop/cppEngine/engine/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Can/Desktop/cppEngine/engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug/CMakeFiles/engine.dir
+C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug/Sandbox/CMakeFiles/Sandbox.dir
+C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug/Sandbox/CMakeFiles/edit_cache.dir
+C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug/Sandbox/CMakeFiles/rebuild_cache.dir

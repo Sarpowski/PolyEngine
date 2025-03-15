@@ -57,6 +57,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2024.1.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -281,13 +296,16 @@
 		},
 		{
 			"path" : "conanfile.py"
+		},
+		{
+			"path" : "Sandbox/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Can/Desktop/cppEngine/engine/cmake-build-debug",
-		"source" : "C:/Users/Can/Desktop/cppEngine/engine"
+		"build" : "C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine/cmake-build-debug",
+		"source" : "C:/Users/Can/Desktop/projectPolyEngine/PolyEngine/engine"
 	},
 	"version" : 
 	{
